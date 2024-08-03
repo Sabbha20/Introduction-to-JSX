@@ -7,7 +7,9 @@ const lname = "Mondal";
 
 ReactDOM.render(
   <>
-    <h1>Hello, this is Sabbha</h1>
+    <h1 className="heading" contentEditable="true" spellCheck="false">
+      Hello, this is Sabbha
+    </h1>
     <h4>Full Name: {`${fname} ${lname}`}</h4>
     <h4>
       Full Name: {fname} {lname}
